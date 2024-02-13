@@ -1,8 +1,8 @@
-package com.ex1.ex1app.controller;
+package com.modelexample.model_demo.controller;
 
 import org.springframework.web.bind.annotation.RestController;
 
-import com.ex1.ex1app.model.AddressModel;//importing addressModel
+import com.modelexample.model_demo.model.*;//importing addressModel
 
 import org.springframework.web.bind.annotation.GetMapping;
 import java.util.*;

@@ -6,6 +6,6 @@ import java.util.*;
 
 @Service
 public class BusinesService {
-    
+
     public List<StudentModel> students = new ArrayList<>();
 }

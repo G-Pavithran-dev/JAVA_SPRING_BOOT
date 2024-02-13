@@ -1,4 +1,4 @@
-package com.ex1.ex1app.model;
+package com.modelexample.model_demo.model;
 
 public class AddressModel {
     private String name;
