@@ -7,10 +7,10 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 @Configuration
 public class LoginCredentials {
-    @JsonIgnore
     private String userName;
     @JsonProperty("key")
     private String password;
+    @JsonIgnore
     private String mail;
 
     public LoginCredentials() {
