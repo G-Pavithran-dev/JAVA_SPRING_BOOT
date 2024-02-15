@@ -1,10 +1,10 @@
-package com.d2ce4.d2ce_4;
+package com.examly.springapp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class D2ce4ApplicationTests {
+class SpringappApplicationTests {
 
 	@Test
 	void contextLoads() {

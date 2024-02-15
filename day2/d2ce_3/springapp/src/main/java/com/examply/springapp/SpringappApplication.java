@@ -1,13 +1,13 @@
-package com.d2ce4.d2ce_4;
+package com.examply.springapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class D2ce4Application {
+public class SpringappApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(D2ce4Application.class, args);
+		SpringApplication.run(SpringappApplication.class, args);
 	}
 
 }
