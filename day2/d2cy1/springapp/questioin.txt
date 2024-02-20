@@ -1,0 +1,32 @@
+Project Question
+
+Overview:
+
+To develop an application that allows the posting of
+department details while demonstrating the usage of the
+@JsonProperty annotation.
+
+Functional Requirements:
+
+Create folders named as model and controller inside the
+WORKSPACE/springapp/src/main/java.com/examly/spring
+app.
+
+Inside model folder, create a class named "Department" with
+the following attributes
+1. departmentName - String
+2. branch - String
+
+Use the @JsonProperty annotation for both attributes
+Implement getters, setters and constructors for these
+attributes.
+
+Inside controller folder, create a class named
+'DepartmentController"
+
+API ENDPOINT:
+POST - "/department": Post the department object and return
+the department detail in the string format as mentioned
+below
+"Department name: " + departmentName + ", Branch: " +
+branch

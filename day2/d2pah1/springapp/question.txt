@@ -1,0 +1,31 @@
+Retrieve the student information and demonstrate the usage of the @Value annotation.
+
+
+
+Functional Requirements:             
+
+Create folders named as config and controller inside the WORKSPACE/springapp/src/main/java/com/examly/springapp.
+
+Inside config folder, create a class named "AppConfig" with the following attributes
+
+studentName - String
+studentDepartment - String
+Implement getters, setters and constructors for these attributes.
+
+Apply @Value annotation to both attributes to retrieve the data from the application.properties file.
+
+Inside controller folder, create a class named "ApiController".
+
+
+
+Refer the below image for the project structure:
+
+
+
+
+
+API:
+
+GET - /info: Retrieve the student details in the following format:
+
+"Student Name: " + studentName + ", Department:" + studentDepartment
