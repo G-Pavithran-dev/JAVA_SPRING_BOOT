@@ -16,7 +16,6 @@ import java.util.Optional;
 import com.examly.springapp.model.Medicine;
 import com.examly.springapp.service.MedicineService;
 
-
 @RestController
 @RequestMapping("/api")
 public class MedicineController {
